@@ -15,14 +15,16 @@ body {
   color: white;
 }
 
-.chat-bubble {
-  @apply max-w-xs px-4 py-2 rounded-3xl mb-2;
-}
+@layer components {
+  .chat-bubble {
+    @apply max-w-xs px-4 py-2 rounded-3xl mb-2;
+  }
 
-.sent {
-  @apply bg-green-500 ml-auto rounded-br-sm;
-}
+  .sent {
+    @apply bg-green-500 ml-auto rounded-br-sm;
+  }
 
-.received {
-  @apply bg-gray-700 mr-auto rounded-bl-sm;
+  .received {
+    @apply bg-gray-700 mr-auto rounded-bl-sm;
+  }
 }
